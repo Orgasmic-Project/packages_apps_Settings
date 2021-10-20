@@ -32,7 +32,7 @@ import com.android.settings.core.BasePreferenceController;
 public class CustomFirmwareVersionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "CustomFirmwareVersion";
-    private static final String VERSION_PROPERTY = "ro.spark.version";
+    private static final String VERSION_PROPERTY = "ro.orgasmic.version";
 
     private final PackageManager mPackageManager;
 
